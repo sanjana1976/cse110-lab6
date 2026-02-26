@@ -11,7 +11,7 @@ public class GoogleMapsClient {
         try {
             // Simulating Network Latency
             System.out.println("[SDK] Querying Google Maps API for route...");
-            Thread.sleep(2000);
+            Thread.sleep(500);
 
             // Return a dummy estimate in minutes
             return Math.round((min + random.nextFloat() * (max - min)) * 100.0) / 100.0;
