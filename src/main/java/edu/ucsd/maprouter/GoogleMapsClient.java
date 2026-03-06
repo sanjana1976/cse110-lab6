@@ -2,7 +2,7 @@ package edu.ucsd.maprouter;
 
 import java.util.Random;
 
-public class GoogleMapsClient {
+public class GoogleMapsClient implements IMapsClient{
 
     public double getMinutesEstimate(String start, String end) {
         Random random = new Random();
